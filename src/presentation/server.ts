@@ -26,7 +26,7 @@ export class Server{
         })
 
         this.app.listen(this.options.PORT,()=>{
-            console.log('server running in port 3000')
+            console.log(`server running in port ${this.options.PORT}`)
 
         })
 
